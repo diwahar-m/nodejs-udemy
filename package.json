@@ -4,7 +4,11 @@
   "description": "This app contains different movie genres",
   "main": "index.js",
   "scripts": {
-    "test": "node ./node_modules/jest/bin/jest.js --watchAll --coverage"
+    "test": "node ./node_modules/jest/bin/jest.js --watchAll --coverage",
+    "start": "node index.js"
+  },
+  "engines":{
+    "node": "20.9.0"
   },
   "author": "",
   "license": "ISC",
